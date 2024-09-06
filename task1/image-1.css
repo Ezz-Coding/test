@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.parants-1{
+display: grid;
+grid-template-columns: 5% auto 1.5fr 2fr 1fr auto;
+}
+.nav a{
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav{
+    padding: 30px;
+
+}
+.nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.a1{
+    padding: 10px;
+}
+.button{
+    padding: 30px;
+}
+.b1{
+    border: 0px;
+    border-radius: 20px;
+    padding: 15px 25px;
+    color: aliceblue;
+    background-color: aquamarine;
+    transition: .5s;
+}
+.b1.b1:hover{
+    border: 0px;
+    transform: scale(1.2);
+}
+.parants-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.son{
+    text-align: center;
+}
+.sp1{
+   backdrop-filter: blue(20px); 
+  justify-content: space-between;
+padding: 20px 5%;
+}
+.parants-3{
+    display: grid;
+    grid-template-columns: 5% 1fr 10% 1fr 10% 1fr 1fr 10% 1fr 10%;
+
+}
+.son5{
+   
+}
+
+
